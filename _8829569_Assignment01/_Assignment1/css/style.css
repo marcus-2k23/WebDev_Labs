@@ -1,0 +1,110 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 0;
+}
+
+nav{
+    text-align: center;
+    background-color: #668f60;
+}
+
+nav a{
+    color: #eee9e5;
+    text-decoration: none;
+    padding: 20px 20px;
+    display: inline-block ;
+}
+
+header{
+    background-color: #B2EDC5;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    padding-left: 15px;
+
+    display: grid;
+    grid-template-columns: 1fr 9fr 4fr;
+}
+
+main{
+    background-color: #cdfac0;
+    
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+}
+
+
+
+
+.profile-pic{
+    padding-top: 50px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    background-color: #668f60;
+}
+
+.about-container{
+    margin-left: 30px;
+    margin-top: 40px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+
+.about-content{
+    margin-right: 10px;
+    padding: 15px;
+    background-color: #83c492;
+}
+
+.work-exp{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+.work-exp-margin{
+    margin-left: 20px;
+}
+
+
+.right-sidebar{
+    background-color: #86e09a;
+    padding-left: 20px;
+}
+
+
+.work-vid-container{
+    text-align: center;
+    padding: 20px;
+    background-color: #83c492;
+}
+
+.country-container{
+    padding-top: 20px;
+    margin-left: 30px;
+}
+
+.country-vid{
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.country-content{
+    margin-left: 20px;
+}
+
+
+
+footer{
+    background-color: #a9bccb;
+    padding: 10px;
+    text-align: center;
+}
+
+.footer-links{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 20px;
+}
+

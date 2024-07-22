@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buy Now</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stylesBuyNow.css">
+    <script src="JS/script.js"></script>
+
+</head>
+
+<body>
+
+    <header class="storeName">Asset Gifts</header>
+
+    <nav>
+        <a href="index.html">HOME</a>
+        <a href="buyNow.html">BUY NOW</a>
+    </nav>
+
+
+    <div class="products-container">
+        <div class="products-card">
+            <div class="prodPicture">
+                <img src="images/scrinchies-pic.jpg" id="scrinchiesProdPicID">
+            </div>
+            <div class="prodInfo">
+                Scrunchies <br>
+                $21.99 each
+            </div>
+            <div id="amountContainer">
+                <label for="scrunchies-qty">Qty: </label>
+                <input type="text" id="scrunchies-qty">
+            </div>
+        </div>
+
+        <div class="products-card">
+            <div class="prodPicture">
+                <img src="images/flower-pot-pic.jpg" id="flowerPotProdPicID">
+            </div>
+            <div class="prodInfo">
+                Flower pot <br>
+                $22.50 each
+            </div>
+            <div id="amountContainer">
+                <label for="flowerPot-qty">Qty: </label>
+                <input type="text" id="flowerPot-qty">
+            </div>
+        </div>
+
+        <div class="products-card">
+            <div class="prodPicture">
+                <img src="images/gloves-pic.jpg" id="glovesProdPicID">
+            </div>
+            <div class="prodInfo">
+                Gloves <br>
+                $41.99 each
+            </div>
+            <div id="amountContainer">
+                <label for="gloves-qty">Qty: </label>
+                <input type="text" id="gloves-qty">
+            </div>
+        </div>
+    </div>
+
+    <div class="orderDetails">
+        <h2>Order Form:</h2>
+        <form onsubmit="return formHandler();" id="orderForm" action="" method="POST">
+
+            <div class="nameInput">
+                <label for="uname">Name:</label>
+                <input type="text" id="uname">
+            </div>
+
+            <div class="clientIDInput">
+                <label for="clientID">Client ID:</label>
+                <input type="text" id="clientID">
+            </div>
+
+
+            <div id="buy-button">
+                <input type="submit" value="submit">
+            </div>
+            <div>
+                <span id="outputErrors"></span>
+            </div>
+        </form>
+
+
+    </div>
+    <div id="receiptContainer">
+        <h2>Receipt:</h2>
+
+        <h5>----------------------------- User Info -----------------------------</h5>
+
+        <div class="receiptInfo">
+            <span>Name: </span>
+            <span id="outputName"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>client ID: </span>
+            <span id="outputClientID"></span>
+        </div>
+
+        <h5>-------------------------- Products Info --------------------------</h5>
+
+        <div class="receiptInfo">
+            <span>Scrunchies quantity ($21.99 each): </span>
+            <span id="outputScrunchiesQty"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>Scrunchies total cost: </span>
+            <span id="outputScrunchiesTCost"></span>
+        </div>
+        <h7>----------------------</h7>
+        <div class="receiptInfo">
+            <span>Flower Pot quantity ($22.50 each): </span>
+            <span id="outputFlowerPotQty"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>Flower Pot Total Cost: </span>
+            <span id="outputFlowerPotTCost"></span>
+        </div>
+        <h7>----------------------</h7>
+        <div class="receiptInfo">
+            <span>Gloves quantity ($41.99 each): </span>
+            <span id="outputGlovesQty"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>Gloves Total Cost: </span>
+            <span id="outputGlovesTCost"></span>
+        </div>
+
+
+        <h5>------------------------------ Total ------------------------------</h5>
+
+        <div class="receiptInfo">
+            <span>Sub Total: </span>
+            <span id="outputTotalCost"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>Tax: </span>
+            <span id="outputTax"></span>
+        </div>
+        <div class="receiptInfo">
+            <span>Total: </span>
+            <span id="outputGrandTotal"></span>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>

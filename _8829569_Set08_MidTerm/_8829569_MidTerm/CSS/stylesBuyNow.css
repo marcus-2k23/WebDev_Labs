@@ -1,0 +1,97 @@
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+}
+
+nav{
+    text-align: center;
+    padding: 10px;
+    background-color: antiquewhite;
+}
+
+nav a{
+    padding: 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#outputErrors{
+    color: red;
+    text-align: center;
+}
+
+.products-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products-card{
+background-color: rgb(5, 10, 62);
+padding: 10px;
+width: 200px;
+border-radius: 15px;
+margin: 50px;
+}
+
+.prodInfo{
+    color: white;
+}
+
+#amountContainer{
+    display: flex;
+    color: white;
+}
+
+#scrunchies-qty{
+    margin-left: 5px;
+}
+
+#flowerPot-qty{
+    margin-left: 5px;
+}
+
+#gloves-qty{
+    margin-left: 5px;
+}
+
+.orderDetails{
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+
+.nameInput{
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+#uname{
+    border-radius: 5px;
+}
+
+#clientID{
+    border-radius: 5px;
+}
+
+.clientIDInput{
+    padding-bottom: 10px;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+}
+
+#receiptContainer{
+    background-color: cadetblue;
+    padding-left: 70px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.receiptInfo{
+    padding-bottom: 10px;
+    display: flex;
+    -ms-flex-align: center;
+}

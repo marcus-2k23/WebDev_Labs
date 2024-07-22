@@ -1,0 +1,7 @@
+
+function formHandler(){
+
+    return true;
+
+  
+  }
